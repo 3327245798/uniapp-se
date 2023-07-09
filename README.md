@@ -1,2 +1,19 @@
-# uniapp-se
-实习时做的项目，施耐德电气的组件库，uniapp与vue组件的互操作性，se组件库在uniapp的使用
+# uniapp-demo
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

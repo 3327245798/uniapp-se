@@ -1,0 +1,81 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	
+	"leftWindow": {
+		"path": "pages/index/leftwindow.vue", // 指定 leftWindow 页面文件  
+	  "style": {
+		"width": "370px" // 页面宽度  
+	  },
+	  "matchMedia": {
+		"minWidth": 960 //生效条件，当窗口宽度大于768px时显示  
+	  }  
+   },
+  "topWindow": {
+	   "path": "pages/index/topwindow.vue",
+	 "style": {
+		 "height":"50px"
+		  // "width": "calc(100vw)"
+	 },
+	 "matchMedia": {
+		 "minWidth": 960 //生效条件，当窗口宽度大于768px时显示  
+	 }
+   },
+
+	"pages": [ /*pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages*/
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/index2",
+			"style": {
+				"navigationBarTitleText": "uniapp侧边栏效果"
+			}
+		},
+		{
+			"path": "pages/index/test",
+			"style": {
+				"navigationBarTitleText": "uni-app-test"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "community"
+			}
+		},
+		{
+			"path": "pages/framework/frame",
+			"style": {
+				"navigationBarTitleText": "framework页面"
+			}
+		},
+		{
+			"path": "pages/guidelines/guide",
+			"style": {
+				"navigationBarTitleText": "guide页面"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "home页面"
+			}
+		}
+	],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
